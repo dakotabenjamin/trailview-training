@@ -32,3 +32,5 @@ Training docs for TrailView volunteers
 -	Don’t worry about faces or people in the camera’s view. Mapillary will blur them out. 
 
 > TODO: Uploading photos section, add screenshots and photos. 
+
+[Mapillary Blog Post about Mapillary + GoPro](http://blog.mapillary.com/update/2015/12/18/gopro.html)
