@@ -9,7 +9,6 @@ Training docs for TrailView volunteers
 - Gimbal and GoPro setup
 - Spare batteries (gimbal, gopro)
 - charger
-- 
 
 ### Setup
 1. Double-check all batteries are charged (phone, GoPro, gimbal).
