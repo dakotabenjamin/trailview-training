@@ -16,9 +16,9 @@ Training docs for TrailView volunteers
 3. Check gimbal and secure it to the rover. Make sure it is solidly installed/strapped in.
 4. Set the rover upright so that it is motionless without needing to be held up, then plug in the gimbal battery. You must not touch the rover while the gimbal is calibrating. 
 5. Open phone wifi settings and connect to the GoPro. The connection is called cmp-goproX (X being a number 1-4) and the password is the same. 
-6. Open the GoPro app, connect to your camera, and tap the settings gear tab (bottom right). Scroll to "Delete" and delete all files from the SD card. 
-7. Open the Mapillary app. Go to the camera tab on the bottom. 
-8. The app will detect the GoPro and give a notification. Select Yes. 
+6. Open the GoPro app, connect to your camera, and tap the settings gear tab (bottom right). Scroll to "Delete" and delete all files from the SD card. ![](https://raw.githubusercontent.com/dakotabenjamin/trailview-training/master/IMG_5421.PNG)
+7. Open the Mapillary app. Go to the camera tab on the bottom. ![](https://raw.githubusercontent.com/dakotabenjamin/trailview-training/master/IMG_5419.PNG)
+8. The app will detect the GoPro and give a notification. Select Yes. ![](https://raw.githubusercontent.com/dakotabenjamin/trailview-training/master/IMG_5420.PNG)
 9. Tap the small car icon above the Start button and select walking (Automatic)
 10. Tap the (+) icon below the Start button to begin a new sequence. 
 9. Once the GPS icon at the top left turns green, you are ready to capture. Press the big green button and start walking.
