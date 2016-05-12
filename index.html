@@ -89,20 +89,23 @@ class: middle
 
 .right[<img src="https://raw.githubusercontent.com/dakotabenjamin/trailview-training/master/IMG_5421.PNG" height="500" >]
 1. Open phone wifi settings and connect to the GoPro. The connection is called cmp-goproX (X being a number 1-4) and the password is the same. 
-2. Open the GoPro app, connect to your camera, and tap the settings gear tab (bottom right). Scroll to "Delete" and delete all files from the SD card. 
-3. Open the Mapillary app. Go to the camera tab on the bottom.
+2. Open the GoPro app, connect to your camera, and tap the settings gear tab (bottom right). 
+  1. Make sure "Upside Down" is toggled on.
+  2. Scroll to "Delete" and delete all files from the SD card.
 
 
 ---
 
 # Using the Mapillary App 
 
+1. Open the Mapillary app. Go to the camera tab on the bottom.
+2. The app will detect the GoPro and give a notification. Select Yes. 
+
 .center[<img src="https://raw.githubusercontent.com/dakotabenjamin/trailview-training/master/IMG_5419.PNG" height="500">]
 
 ---
 
 # Using the Mapillary App
-The app will detect the GoPro and give a notification. Select Yes. 
 
 
 .center[.middle[<img src="https://raw.githubusercontent.com/dakotabenjamin/trailview-training/master/IMG_5420.PNG" width="600">]]
@@ -133,6 +136,55 @@ The app will detect the GoPro and give a notification. Select Yes.
 [Mapillary Blog Post about Mapillary + GoPro](http://blog.mapillary.com/update/2015/12/18/gopro.html)
 
 ---
+
+# Using the GoPro without Mapillary
+
+Since the mapillary app is seemingly not working right now, we will use a GPS unit and the GoPro's time-lapse function to take photos. 
+
+1. Connect the GoPro to the mobile app:
+  a. Turn on the camera.
+  b. Push the wireless connect button on the side of the camera, then use the Mode/Power button to go to the GoPro App option. Push the shutter button to select it. A blue LED will light up.
+  c. On your phone, go to Settings, then select Wi-Fi. Choose the network named “cmp-gopro#” where # is either 1 or 2. The password will be exactly the same as the network name. 
+  d. Open the GoPro App and select “Connect & Control.” If this option does not show, then make sure you are connected to the GoPro’s network. 
+
+--
+
+2. Make sure the camera mode is “Photo Time Lapse” using the camera mode icon to the right of the shutter button. 
+3. Go into the settings using the wrench icon. Make sure the Field of View is WIDE, the Time-Lapse Rate is 1 second, and the “Upside Down” setting is toggled ON.
+
+---
+# Set up the Gimbal
+
+1. Attach the camera to the gimbal and screw it in firmly. 
+2. Double check that the gimbal and battery pack are solidly attached to the unicycle mount. 
+3. Plug in the battery. Hold the unicycle completely still while the gimbal calibrates itself.
+
+---
+# Set up GPS
+
+1. Turn on the GPS unit. 
+2. Press Menu twice to get to the main menu
+3. Navigate to “Track Manager” using the arrow buttons and press Enter.
+4. Press Enter again on “Current Track”
+5. Navigate to “Clear Current Track” and press Enter, then select Yes to confirm.
+6. Attach the GPS unit to the unicycle or belt loop such that the device antenna points the same direction as the camera. 
+
+---
+# Taking Photo Sequences
+1. Press the shutter button on the app to begin taking photos. 
+2. Walk the center of the path at a constant walking speed. Keep the camera pointed forward. 
+3. When finished, press the shutter button again to stop the sequence. 
+4. On the GPS unit, navigate to the current track using Steps 2-4 above. Select “Save Track” and enter a useful name. Select Done when finished. You may clear the current track. 
+
+---
+class: center
+# Return the camera and GPS unit to Dakota to process and upload
+Writing the GPS info to the camera images takes some Python-fu, so I will take care of that. If you have experience with python, then we can set up a 1-on-1 and I'll show you the steps.
+
+---
+class: center, middle, inverse
+
+# Let's get out there!
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
